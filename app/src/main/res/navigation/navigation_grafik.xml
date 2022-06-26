@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_grafik"
+    app:startDestination="@id/anaMenuFragment">
+
+    <fragment
+        android:id="@+id/anaMenuFragment"
+        android:name="com.example.taslak1.AnaMenuFragment"
+        android:label="fragment_ana_menu"
+        tools:layout="@layout/fragment_ana_menu" >
+        <action
+            android:id="@+id/action_anaMenuFragment_to_besinlerListesiFragment"
+            app:destination="@id/besinlerListesiFragment" />
+        <argument
+            android:name="secilenBesinIsmi"
+            app:argType="string"
+            android:defaultValue="Besin" />
+    </fragment>
+    <fragment
+        android:id="@+id/besinlerListesiFragment"
+        android:name="com.example.taslak1.BesinlerListesiFragment"
+        android:label="fragment_besinler_listesi"
+        tools:layout="@layout/fragment_besinler_listesi"
+        >
+        <action
+            android:id="@+id/action_besinlerListesiFragment_to_anaMenuFragment"
+            app:destination="@id/anaMenuFragment" />
+    </fragment>
+</navigation>

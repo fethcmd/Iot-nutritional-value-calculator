@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1029772195004",
+    "firebase_url": "https://iotproje-9b738-default-rtdb.firebaseio.com",
+    "project_id": "iotproje-9b738",
+    "storage_bucket": "iotproje-9b738.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029772195004:android:0bd55c40b686ce5ca90cb9",
+        "android_client_info": {
+          "package_name": "com.example.iotveriaktarma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029772195004-fmsr123477nqk4miiiei58o08571v59a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaJ_ZOyDmjEA_Jp5Gtrx7pi3KNx9bMJs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029772195004-fmsr123477nqk4miiiei58o08571v59a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029772195004:android:a5d3da2bfdbf59e1a90cb9",
+        "android_client_info": {
+          "package_name": "com.example.taslak1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029772195004-fmsr123477nqk4miiiei58o08571v59a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaJ_ZOyDmjEA_Jp5Gtrx7pi3KNx9bMJs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029772195004-fmsr123477nqk4miiiei58o08571v59a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
